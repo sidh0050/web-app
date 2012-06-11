@@ -10,15 +10,25 @@ A mobile web application is used to provide facility to buy grocery online and m
 -Templates are used to represent information about some specific recipies.
 
 -To do list will be helpful to represent information about specific type of grocery products like
+
 1.Fruits
+
 2.Veg Products
+
 3.Non-Veg products
+
 4.Oil Products
+
 5.Beef products
+
 6.Vegetable products
+
 7.Snacks
+
 8.Liquid products
+
 9.Juice products
+
 10.Milk products
 
 -Use of i pod ,iphone etc to acess information about specific type of products for grocery list.
@@ -50,13 +60,19 @@ A mobile web application is used to provide facility to buy grocery online and m
 -In the contact page i am going to use some CSS to give a better design to my Contact page which includes the fields as given below:
 
 CONTACT PAGE
+
 1.Name
+
 2.Subject
+
 3.Message
+
 4.Sent
+
 5.Button named Send to send a mail from the customers to web owners.
 
 #####Similar Applications
+
 1.www.grocerylists.org/ultimatest/
 
 -All the important information is represented in this website application rather than home page.
@@ -64,6 +80,7 @@ CONTACT PAGE
 -A lot of written information but difficult to understand without other content such as images.
 
 ######Differences
+
 -I am going to define a home page and images which makes my web application so simple and understandable.
 
 -I am going to add a button named lists which provides information about different types of grocery items like milk products,Breakfast  products,Veg Products, and Non veg products.
@@ -75,6 +92,7 @@ CONTACT PAGE
 -In this website there are not photos used regarding to grocery to make this application more understandable and simple.
 
 #######Differences
+
 In this applications there is not any option of link between the customer and web application owner to answer/questions or to send or receive mails but in my web application i am going to add contact page to represent link between user and website.
  
  3.www.rachealrayshow.com/show-info/
@@ -82,26 +100,36 @@ In this applications there is not any option of link between the customer and we
  -In this website at the first look users are not easily able to understand that how to create a grocery list in it.Because a lot of written information is given.But videos and images are missing in it.
  
 ########Differences
+
 -I am going to make an option to create list easily and also trying to add recipes and videos in it to make it more impressive.
 
 #########Research
 
 -This web is targeted for working womwn as well as for house wives.
+
 -This website helps to save valueable time for working women.
 
 
 ###
 Vandana bains
+
 -Movies-Kabhi alvida naa kehna,Chupke-Chupke
+
 -She has a smart phone with her to know about the latest happenings of world through internet.
+
 -She usually going to make a grocery list at weekends.
+
 -She is honest and decent girl.
+
 -She is a student and at present time sha has not enough time to make a grocery list.
+
 -She wants to save wastage of time by using online and free grocery list web application
 
 
 ##########Demotivations
+
 -She dislikes double minded persons.
+
 -She dislikes Chocolates.
 
 
