@@ -20,3 +20,7 @@ A mobile web application is used to provide facility to buy grocery online and m
 8.Liquid products
 9.Juice products
 10.Milk products
+
+-Use of i pod ,iphone etc to acess information about specific type of products for grocery list.
+
+-Access information from any computer from work or froem home about grocery list web application.
