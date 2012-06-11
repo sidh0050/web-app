@@ -90,5 +90,19 @@ In this applications there is not any option of link between the customer and we
 -This website helps to save valueable time for working women.
 
 
+###
+Vandana bains
+-Movies-Kabhi alvida naa kehna,Chupke-Chupke
+-She has a smart phone with her to know about the latest happenings of world through internet.
+-She usually going to make a grocery list at weekends.
+-She is honest and decent girl.
+-She is a student and at present time sha has not enough time to make a grocery list.
+-She wants to save wastage of time by using online and free grocery list web application
+
+
+##########Demotivations
+-She dislikes double minded persons.
+-She dislikes Chocolates.
+
 
 
