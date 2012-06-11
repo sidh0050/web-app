@@ -131,9 +131,9 @@ In this applications there is not any option of link between the customer and we
 
 -She dislikes Chocolates.
 
-###Pages 
+#Pages 
 
-#Recipes page
+###Recipes page
 
 -Images of Recipes
 -Description of Recipe
