@@ -84,5 +84,11 @@ In this applications there is not any option of link between the customer and we
 ########Differences
 -I am going to make an option to create list easily and also trying to add recipes and videos in it to make it more impressive.
 
+#########Research
+
+-This web is targeted for working womwn as well as for house wives.
+-This website helps to save valueable time for working women.
+
+
 
 
