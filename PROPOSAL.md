@@ -110,8 +110,7 @@ In this applications there is not any option of link between the customer and we
 -This website helps to save valueable time for working women.
 
 
-###
-Vandana bains
+###Vandana bains
 
 -Movies-Kabhi alvida naa kehna,Chupke-Chupke
 
@@ -131,6 +130,34 @@ Vandana bains
 -She dislikes double minded persons.
 
 -She dislikes Chocolates.
+
+###Pages 
+
+#Recipes page
+
+-Images of Recipes
+-Description of Recipe
+-Title of recipe
+-Ingredients for recipe
+
+###Contact page
+-Name
+-Subject
+-Message
+-Sent
+-Button send
+
+###Lists Page
+-Fruit products
+-Vegetable products
+-Veg products 
+-Non-veg Products
+-Snacks
+-Milk products
+
+###About page
+-Why we need online grocery list
+
 
 
 
