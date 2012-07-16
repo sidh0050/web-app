@@ -106,7 +106,7 @@ var_dump($sql->errorInfo());*/
 <div class="footerhome">
 
 <ul>
-<li><a href="home.php">Home</a></li>
+<li><a href="home.php"style="text-decoration: none;">Home</a></li>
 <li>Make grocery list free</li>
 <li>Available items</li>
 <li>Information about items</li>
@@ -117,7 +117,7 @@ var_dump($sql->errorInfo());*/
 <div class="footerlists">
 
 <ul>
-<li><a href="lists.php">Lists</a></li>
+<li><a href="lists.php"style="text-decoration: none;">Lists</a></li>
 <li>Grocery lists</li>
 <li>Different items list</li>
 <li>Available items list</li>
@@ -129,7 +129,7 @@ var_dump($sql->errorInfo());*/
 <div class="footerrecipies">
 
 <ul>
-<li><a href="recipies.php">Recipes</a></li>
+<li><a href="recipies.php"style="text-decoration: none;">Recipes</a></li>
 <li>Free recipes</li>
 <li>Free recipes books</li>
 <li>Recipes List</li>

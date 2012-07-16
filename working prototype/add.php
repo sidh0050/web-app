@@ -1,8 +1,9 @@
+
 <?php
 require_once 'includes/db.php';
 $errors=array();
+$results = null;
 
-$id=filter_input(INPUT_GET,'recipes_id',FILTER_SANITIZE_NUMBER_INT);
 $recipes_ingredients=filter_input(INPUT_POST,'recipes_ingredients',FILTER_SANITIZE_STRING);
 $recipes_directions=filter_input(INPUT_POST,'recipes_directions',FILTER_SANITIZE_STRING);
 
@@ -18,24 +19,29 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 	
 	
 	if(empty($errors)){
-	require_once 'includes/db.php';
 	
-	$sql = $db->prepare('INSERT INTO recipies(recipes_id,recipes_ingredients,recipes_directions)
-	VALUES(:recipes_id,:recipes_ingredients,:recipes_directions)');
+	$sql = $db->prepare('INSERT INTO recipies(recipes_ingredients,recipes_directions)
+	VALUES(:recipes_ingredients,:recipes_directions)');
 	
-	$sql->bindValue(':recipes_id',$recipies_id,PDO::PARAM_STR);
 	$sql->bindValue(':recipes_ingredients',$recipes_ingredients,PDO::PARAM_STR);
 	$sql->bindValue(':recipes_directions',$recipes_directions,PDO::PARAM_STR);
 	
 	
 	$sql->execute();
 	
-	header('Location:recipies.php');
-	exit;
+	//header('Location:recipies.php');
+	//exit;
 	
 	
 	
 	}
+	
+	
+$sql =$db->query('SELECT recipes_id,recipes_ingredients,recipes_directions FROM recipies ORDER BY recipes_id ASC');
+var_dump($db->errorInfo());
+$results=$sql->fetchAll();
+		
+
 
 
 ?><!DOCTYPE HTML>
@@ -116,9 +122,35 @@ Recipes Directions
 
 
 
-
+<div class="butt">
 <button type="add">Add</button>
+</div>
 </form>
+
+
+
+<div class="recipes">
+	
+
+
+<?php foreach($results as $recipes): ?>
+<h2><a href="single.php?id=<?php echo $recipes['recipes_id']; ?>">
+<?php echo $recipes['recipes_ingredients']; ?>
+</a>
+</h2>
+<dl>
+    <dt>recipies id</dt>
+		<dd><?php echo $recipes['recipes_id']; ?></dd>
+		<dt><?php echo $recipes['recipes_ingredients'];?></dt>
+		<dd><?php echo $recipes['recipes_directions'];?></dd>
+		
+</dl>
+<?php endforeach; ?>
+</div>
+
+
+
+
 
 </div>
 
@@ -127,7 +159,7 @@ Recipes Directions
 <div class="footerhome">
 
 <ul>
-<li><a href="home.php">Home</a></li>
+<li><a href="home.php"style="text-decoration: none;">Home</a></li>
 <li>Make grocery list free</li>
 <li>Available items</li>
 <li>Information about items</li>
@@ -138,7 +170,7 @@ Recipes Directions
 <div class="footerlists">
 
 <ul>
-<li><a href="lists.php">Lists</a></li>
+<li><a href="lists.php"style="text-decoration: none;">Lists</a></li>
 <li>Grocery lists</li>
 <li>Different items list</li>
 <li>Available items list</li>
@@ -147,7 +179,7 @@ Recipes Directions
 
 </div>
 
-<div class="footerrecipies">
+<div class="footerrecipies"style="text-decoration: none;">
 
 <ul>
 <li><a href="recipies.php">Recipes</a></li>

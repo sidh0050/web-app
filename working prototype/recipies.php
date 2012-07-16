@@ -1,16 +1,4 @@
-<?php
-require_once 'includes/db.php';
-
-$sql =$db->query('SELECT recipes_id,recipes_ingredients,recipes_directions FROM recipies ORDER BY recipes_id ASC');
-
-
-var_dump($db->errorInfo());
-
-
-
-$results=$sql->fetchAll();
-
-?><!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="utf-8">
@@ -70,31 +58,13 @@ $results=$sql->fetchAll();
 eled onion and 2-4 black pepper corns when it comes to a boil.In a earthen<br>
 ware pot,boil one onion and 1 teaspoon of garlic in the stock.</p>
 
-
+<div class="butt">
 <a href="add.php"><button type="submit">Add A New Recipe</button></a>
-
+</div>
 
 </div>
 
 
-<div class="recipes">
-	
-
-
-<?php foreach($results as $recipes): ?>
-<h2><a href="single.php?id=<?php echo $recipes['recipes_id']; ?>">
-<?php echo $recipes['recipes_ingredients']; ?>
-</a>
-</h2>
-<dl>
-    <dt>recipies id</dt>
-		<dd><?php echo $recipes['recipes_id']; ?></dd>
-		<dt><?php echo $recipes['recipes_ingredients'];?></dt>
-		<dd><?php echo $recipes['recipes_directions'];?></dd>
-		
-</dl>
-<?php endforeach; ?>
-</div>
 
 
 
@@ -112,7 +82,7 @@ ware pot,boil one onion and 1 teaspoon of garlic in the stock.</p>
 <div class="footerhome">
 
 <ul>
-<li><a href="home.php">Home</a></li>
+<li><a href="home.php"style="text-decoration: none;">Home</a></li>
 <li>Make grocery list free</li>
 <li>Available items</li>
 <li>Information about items</li>
@@ -123,7 +93,7 @@ ware pot,boil one onion and 1 teaspoon of garlic in the stock.</p>
 <div class="footerlists">
 
 <ul>
-<li><a href="lists.php">Lists</a></li>
+<li><a href="lists.php"style="text-decoration: none;">Lists</a></li>
 <li>Grocery lists</li>
 <li>Different items list</li>
 <li>Available items list</li>
@@ -135,7 +105,7 @@ ware pot,boil one onion and 1 teaspoon of garlic in the stock.</p>
 <div class="footerrecipies">
 
 <ul>
-<li><a href="recipies.php">Recipes</a></li>
+<li><a href="recipies.php"style="text-decoration: none;">Recipes</a></li>
 <li>Free recipes</li>
 <li>Free recipes books</li>
 <li>Recipes List</li>

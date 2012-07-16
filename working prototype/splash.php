@@ -40,7 +40,7 @@
 <div class="footerhome">
 
 <ul>
-<a href="home.php">Home</a>
+<a href="home.php"style="text-decoration: none;">Home</a>
 <p>Make grocery list free</p>
 <p>Available items</p>
 <p>Information about items</p>
@@ -50,7 +50,7 @@
 <div class="footerlists">
 
 <ul>
-<a href="lists.php">Lists</a>
+<a href="lists.php"style="text-decoration: none;">Lists</a>
 <p>Grocery lists</p>
 <p>Different items list</p>
 <p>Available items list</p>
@@ -60,7 +60,7 @@
 
 <div class="footerrecipies">
 <ul>
-<a href="recipies.php">Recipes</a>
+<a href="recipies.php"style="text-decoration: none;">Recipes</a>
 <p>Free recipes</p>
 <p>Free recipes books</p>
 <p>Recipes List</p>

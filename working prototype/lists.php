@@ -9,6 +9,9 @@ var_dump($db->errorInfo());
 
 
 $results=$sql->fetchAll();
+$total_items = count($results);
+
+$item_chunks = array_chunk($results, $total_items / 2);
 
 ?><!DOCTYPE HTML>
 <html>
@@ -56,6 +59,7 @@ $results=$sql->fetchAll();
 </div>
 <p><strong>Please select your grocery items</strong></p>
 
+<?php foreach ($item_chunks as $results) : ?>
 <table border="5">
 <tr>
 <th>Items</th>
@@ -63,15 +67,13 @@ $results=$sql->fetchAll();
 </tr>
 
 <?php foreach($results as $lists): ?>
-
-
 <tr>
     <td><input type="checkbox" name="item[]" value="<?php echo $lists['Items'];?>{-+-}<?php echo $lists['Price'];?>"  /><?php echo $lists['Items'];?></td>
 	<td><?php echo $lists['Price'];?></td>		
 </tr>
 <?php endforeach; ?>
 </table>
-
+<?php endforeach; ?>
 
 	</form>
 	</div>
@@ -79,7 +81,7 @@ $results=$sql->fetchAll();
 <div class="footerhome">
 
 <ul>
-<li><a href="home.php">Home</a></li>
+<li><a href="home.php"style="text-decoration: none;">Home</a></li>
 <li>Make grocery list free</li>
 <li>Available items</li>
 <li>Information about items</li>
@@ -90,7 +92,7 @@ $results=$sql->fetchAll();
 <div class="footerlists">
 
 <ul>
-<li><a href="lists.php">Lists</a></li>
+<li><a href="lists.php"style="text-decoration: none;">Lists</a></li>
 <li>Grocery lists</li>
 <li>Different items list</li>
 <li>Available items list</li>
@@ -99,7 +101,7 @@ $results=$sql->fetchAll();
 </div>
 <div class="footerrecipies">
 <ul>
-<li><a href="recipies.php">Recipes</a></li>
+<li><a href="recipies.php"style="text-decoration: none;">Recipes</a></li>
 <li>Free recipes</li>
 <li>Free recipes books</li>
 <li>Recipes List</li>
