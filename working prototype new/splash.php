@@ -13,11 +13,12 @@
 
 </div>
 
-<h1>Sidhuz Grocery List </h1>
 
 
 <div class="img">
-<div class="images">
+<h1>Sidhuz Grocery List </h1>
+
+<div class="imagessplash">
 <img src="images/berries.jpg" alt="Berries Image" >
 <img src="images/redtomato.jpg" alt="Tomato Image" >
 <img src="images/strawberries.jpg" alt="Strawberries Image" >
@@ -32,42 +33,8 @@
 </div>
 </div>
 
-<div class="footer">
-<div class="footerhome">
 
-<ul>
-<a href="home.php"style="text-decoration: none;">Home</a>
-<p>Make grocery list free</p>
-<p>Available items</p>
-<p>Information about items</p>
-</ul>
+
 </div>
-
-<div class="footerlists">
-
-<ul>
-<a href="lists.php"style="text-decoration: none;">Lists</a>
-<p>Grocery lists</p>
-<p>Different items list</p>
-<p>Available items list</p>
-<p>copyrightme@satti 2009-2012</p>
-
-</ul>
-</div>
-
-<div class="footerrecipies">
-<ul>
-<a href="recipies.php"style="text-decoration: none;">Recipes</a>
-<p>Free recipes</p>
-<p>Free recipes books</p>
-<p>Recipes List</p>
-</ul>
-</div>
-
-
-</div
-
-
-
-></body>
+</body>
 </html>

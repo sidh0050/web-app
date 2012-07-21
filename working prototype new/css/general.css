@@ -18,6 +18,7 @@ text-align:center;
     width: 200px;
 		padding:10px;
 		margin-left:15px;
+		border:1px solid #FFF;
 }
 
 
@@ -41,7 +42,7 @@ text-align:center;
 
 
 	nav ul li{
-	margin: 0;
+	margin:0px;
 	padding-top:5px;;
 	float:none;
 	list-style-type: none;
@@ -114,19 +115,23 @@ list-style-type: none;
 	color:#FFF;
 	font-size:13px;
 	margin-left:750px;
-	margin-top: -90px;
+	margin-top: -150px;
 
 }
+
+
 .logo{
-margin-left:70px;
+
+background-color:#fff;
 
 
 	
 }
 .main{
-	margin-left:150px;
+	float:left;
+	margin-left:80px;
 	color:#fff;
-	margin-top:-230px;
+	margin-top:-415px;
 
 
 }
@@ -138,9 +143,9 @@ margin-left:70px;
 		margin-top:0;
 	}
 	.sidebar{
-	margin-left:800px;
+	margin-left:700px;
 	color:fff;
-	margin-top:-500px;
+	margin-top:-717px;
 	
 	}
 	.sidebar ol li{
@@ -204,12 +209,27 @@ padding-left:500px;
 	.table{
 		
 		margin-left:100px;
-		width:500px;
-		padding:50px;
+		width:300px;
+		padding:0px;
 	
 	}
+	.table2{
+		width:300px;
+		padding:0px;
+		margin-left:600px;
+		margin-top:-700px;
+	}
+	.table tr th{
+		color:#fff;
+		text-align:left;
+		
+	}
+	.table tr td{
+		color:#fff;
+		text-align:left;
+	}
 	td{
-		padding:20px;
+		padding:5px;
 		
 	}
 	.cake img{
@@ -236,11 +256,21 @@ form label input{
 		margin-left:50px;
 		padding-top: 70px;
 }
+form label{
+	color:#fff;
+	
+}
 
-.splbtn{
-width:100px;
-	height:50px;
-	margin-left:500px;
+.splbtn button{
+border-radius: 15px;
+		 height:60px;
+		 width:100px;
+	margin-left:465px;
+	float:none;
+	display:inline-block;
+  margin:0px;
+	padding:0 px auto;
+
 }
 h1{
 	color:#fff;
@@ -248,6 +278,23 @@ h1{
 .reclabel{
 	color:#fff;
 }
+.addrecipie p{
+	color:#fff;
+	width:800px;
+	text-align:center;
+	margin-left:90px;
+}
+.contactfooterlists{
+margin-left:-100px;
+	margin-top: -90px;
+}
+.imagessplash img{
+height:300px;
+width:250px;
+border:3px #666;
+padding:5px;
+border:2px solid #FFF;	
 
+}
 
 

@@ -8,6 +8,7 @@
 
 <body>
 <div class="all">
+
 <div class="logo">
 <img src="images/logo.jpg" alt="Logo Image" >
 
@@ -74,6 +75,20 @@ the flower, mainly one or more ovaries</p>
 <li>All Chennai Dishes</li>
 <li>All About Juices written By Satinder</li>
 <li>All about Paranthas</li>
+<li>All About Rice Recipes</li>
+<li>All about Non Varities and indian dishes</li>
+<li>All india salty dishes</li>
+<li>Indian kheer</li>
+<li>Indian custard dishes</li>
+<li>All about south dishes</li>
+<li>All about south indian dishes</li>
+<li>Indian dessert</li>
+<li>Indian custard</li>
+<li>Indian custard dishes</li>
+<li>vegetable dishes</li>
+<li>veg samosa</li>
+<li>Non veg samosa</li>
+
 </ol>
 </div>
 
