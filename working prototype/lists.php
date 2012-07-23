@@ -11,8 +11,8 @@ $sql =$db->query('SELECT id,Price,Items FROM lists ORDER BY id ASC');
 $results=$sql->fetchAll();
 $total_items = count($results);
 
-$item_chunks = array_chunk($results, $total_items / 3);
-
+$item_chunks = array_chunk($results, ceil($total_items / 3));
+var_dump(count($item_chunks));
 ?><!DOCTYPE HTML>
 <html>
 <head>
@@ -69,20 +69,22 @@ $item_chunks = array_chunk($results, $total_items / 3);
 
 <?php foreach($results as $lists): ?>
 <tr>
-    <td><input type="checkbox" name="item[]" value="<?php echo $lists['Items'];?>{-+-}<?php echo $lists['Price'];?>"  /><?php echo $lists['Items'];?></td>
+    <td><input type="checkbox" name="item[]" value="<?php echo $lists['Items'];?>{-+-}<?php echo '$'.$lists['Price'];?>"  /><?php echo $lists['Items'];?></td>
 	<td><?php echo $lists['Price'];?></td>		
 </tr>
 <?php endforeach; ?>
 </table>
-<div class="table2">
-<?php endforeach; ?>
-</div>
-</div>
 
-<div class="butt">
+<?php endforeach; ?>
+
+
+</div>
+<div class="buttr">
 <button value="Create your Grocery List" >Create your Grocery List </button>
 </div>
-	</form>
+	
+</form>
+
 </div>
 
  </div>

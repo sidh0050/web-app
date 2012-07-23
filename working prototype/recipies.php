@@ -51,10 +51,34 @@
 </ol>
 
 <h1>Directions</h1>
-<p>To make the stock, boil 1/2 kg chicken bones in pot with 6-8 cups of water<br>
- until only two cups of stoke remain.To avoid heek,add one small whole pe<br>
-eled onion and 2-4 black pepper corns when it comes to a boil.In a earthen<br>
+<p>To make the stock, boil 1/2 kg chicken bones in pot with 6-8 cups of water
+ until only two cups of stoke remain.To avoid heek,add one small whole pe
+eled onion and 2-4 black pepper corns when it comes to a boil.In a earthen
 ware pot,boil one onion and 1 teaspoon of garlic in the stock.</p>
+</div>
+
+
+<div class="maincontentrecipiestwo">
+<h1>BurgerTikka</h1>
+<h1>Ingredients</h1>
+<ol>
+<li>Boneless Chicken 1 kg</li>
+<li>Garlic (crushed) 2 tsp</li>
+<li>Salt as per taste</li>
+<li>Onions (sliced) 3 medium</li>
+
+<li>Red peeper-one</li>
+<li>Green pepper-one</li>
+<li>Hing-1 spoon</li>
+
+</ol>
+
+<h1>Directions</h1>
+<p>To make the stock, boil 1/2 kg chicken bones in pot with 6-8 cups of water
+ until only two cups of stoke remain.To avoid heek,add one small whole pe
+eled onion and 2-4 black pepper corns when it comes to a boil.In a earthen
+ware pot,boil one onion and 1 teaspoon of garlic in the stock.</p>
+</div>
 
 <div class="butt">
 <a href="add.php"><button type="submit">Add A New Recipe</button></a>

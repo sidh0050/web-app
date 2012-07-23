@@ -4,6 +4,8 @@ require_once 'includes/db.php';
 $errors=array();
 $results = null;
 
+
+$recipes_name=filter_input(INPUT_POST,'recipes_name',FILTER_SANITIZE_STRING);
 $recipes_ingredients=filter_input(INPUT_POST,'recipes_ingredients',FILTER_SANITIZE_STRING);
 $recipes_directions=filter_input(INPUT_POST,'recipes_directions',FILTER_SANITIZE_STRING);
 
@@ -20,9 +22,9 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 	
 	if(empty($errors)){
 	
-	$sql = $db->prepare('INSERT INTO recipies(recipes_ingredients,recipes_directions)
-	VALUES(:recipes_ingredients,:recipes_directions)');
-	
+	$sql = $db->prepare('INSERT INTO recipies(recipes_name,recipes_ingredients,recipes_directions)
+	VALUES(:recipes_name,:recipes_ingredients,:recipes_directions)');
+	$sql->bindValue(':recipes_name',$recipes_name,PDO::PARAM_STR);
 	$sql->bindValue(':recipes_ingredients',$recipes_ingredients,PDO::PARAM_STR);
 	$sql->bindValue(':recipes_directions',$recipes_directions,PDO::PARAM_STR);
 	
@@ -37,7 +39,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 	}
 	
 	
-$sql =$db->query('SELECT recipes_id,recipes_ingredients,recipes_directions FROM recipies ORDER BY recipes_id ASC');
+$sql =$db->query('SELECT recipes_id,recipes_name,recipes_ingredients,recipes_directions FROM recipies ORDER BY recipes_id ASC');
 var_dump($db->errorInfo());
 $results=$sql->fetchAll();
 		
@@ -89,6 +91,19 @@ $results=$sql->fetchAll();
 <form method="post" action="add.php">
 
 <div class="reclabel">
+
+<label for="recipes_name">
+Recipies name
+<?php if(isset($errors['recipes_name'])):?>
+<strong class="errors">Recipes ingredients  are required</strong>
+<?php endif; ?>
+</label><br>
+
+<input id="recipes_name" name="recipes_name" required value="<?php echo $recipes_name; ?>"></textarea>
+</div>
+
+<div class="reclabel">
+
 <label for="recipes_ingredients">
 Recipies Ingredients 
 <?php if(isset($errors['recipes_ingredients'])):?>
@@ -96,9 +111,8 @@ Recipies Ingredients
 <?php endif; ?>
 </label><br>
 
-<input id="recipes_ingredients" name="recipes_ingredients" required value="<?php echo $recipes_ingredients; ?>">
+<textarea id="recipes_ingredients" name="recipes_ingredients" required value="<?php echo $recipes_ingredients; ?>"></textarea>
 </div>
-
 
 
 
@@ -110,8 +124,21 @@ Recipes Directions
 <strong class="errors"></strong>
 <?php endif; ?>
 </label><br>
-<input id="recipes_directions" name="recipes_directions" required value="<?php echo $recipes_directions; ?>">
+<textarea id="recipes_directions" name="recipes_directions" required value="<?php echo $recipes_directions; ?>"></textarea>
 </div>
+
+
+
+
+
+
+
+
+<div class="butt">
+<button type="add">Add</button>
+<button type="add">Delete</button>
+</div>
+</form>
 
 
 
@@ -122,26 +149,19 @@ Recipes Directions
 
 
 
-
-<div class="butt">
-<button type="add">Add</button>
-</div>
-</form>
-
-
-
 <div class="recipes">
 	
 
 
 <?php foreach($results as $recipes): ?>
-<h2><a href="single.php?id=<?php echo $recipes['recipes_id']; ?>">
+<h2><a href="delete.php?id=<?php echo $recipes['recipes_id']; ?>">
 <?php echo $recipes['recipes_ingredients']; ?>
 </a>
 </h2>
 <dl>
     <dt>recipies id</dt>
 		<dd><?php echo $recipes['recipes_id']; ?></dd>
+		<dt><?php echo $recipes['recipes_name'];?></dt>
 		<dt><?php echo $recipes['recipes_ingredients'];?></dt>
 		<dd><?php echo $recipes['recipes_directions'];?></dd>
 		

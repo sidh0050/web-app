@@ -6,7 +6,7 @@ $id= filter_input(INPUT_GET,'id', FILTER_SANITIZE_NUMBER_INT);
 
 
 
-$sql=$db->prepare('SELECT recipes_id,recipes_ingredients,recipes_directions FROM recipies WHERE id=:id');
+$sql=$db->prepare('SELECT recipes_id,recipes_name,recipes_ingredients,recipes_directions FROM recipies WHERE id=:id');
 
 //bind VAlue(placeholder,variables,datatype)
 $sql->bindValue(':id' ,$id, PDO:: PARAM_INT);

@@ -14,5 +14,5 @@ $sql->bindValue(':recipes_id',$recipes_id,PDO::PARAM_INT);
 $sql->execute();
 
 
-header('Location:recipies.php');
+header('Location:add.php');
 exit;

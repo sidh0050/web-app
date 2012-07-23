@@ -12,6 +12,7 @@
 <div class="logo">
 <img src="images/logo.jpg" alt="Logo Image" >
 
+
 </div>
 <div class="img">
 <h1>Sidhuz Grocery List</h1>
@@ -36,37 +37,50 @@
 
 <div class="main">
 <h1>Fruits</h1>
-<p>The noun vegetable means an edible plant or part<br> 
-of a plan but usually excludes seeds and most sw<br>
-eet fruit.A snack is a portion of food oftentimes s<br>
-maller than that of a regular meal, that is generall<br>
-y eaten between meals.In botany, a fruit is a part<br>
+<p>The noun vegetable means an edible plant or part
+of a plan but usually excludes seeds and most sweet
+fruit.A snack is a portion of food oftentimes smal
+ler than that of a regular meal, that is generally
+eaten between meals.In botany, a fruit is a partI
+n the culinary sense of these words, a fruit is u
+sually any sweet-tasting plant product, especiall
+y thoseassociated with seeds; a vegetable is any 
+savoury orless sweet plant product; and a nut is
+any hard, oily,and shelled plant product.
 
 </p>
 
 
 <h1>Vegetables</h1>
-<p>n botany, a fruit is a part of a flowering plant that<br>
-derives from specific tissues of the flower, mainl<br>
-y one or more ovariesA snack is a portion of food<br>
-oftentimes smaller than that of a regular meal, t<br>
-be able to satisfy particular standards for complet<br>
+<p>n botany, a fruit is a part of a flowering plant that
+Vegetable" comes from the Latin vegetabilis (animated) 
+and from vegetare (enliven), which is derived from ve
+getus (active), in reference to the process of a plant
+growing.derives from specific tissues of the flower,
+mainly one or more ovariesA snack is a portion of 
+foodoftentimes smaller than that of a regular meal, 
+tbe able to satisfy particular standards for complet
 eness. 
 </p>
 
 <h1>Snacks</h1>
-<p>A snack is a portion of food oftentimes smaller th<br>
-an that of a regular meal, that is generally eaten <br>
-between meals.In botany, a fruit is a part of a flo<br>
-wering plant thatderives from specific tissues of <br>
-the flower, mainly one or more ovaries</p>
+<p>A snack is a portion of food oftentimes smaller th
+A snack is a portion of food oftentimes smaller than 
+that of a regular meal, that is generally eaten between
+ meals.[1] Snacks come in a variety of forms including
+  packaged and processed foods and items made from fresh
+	 ingredients at home.an that of a regular meal, that
+	  is generally eaten between meals.In botany, a fruit
+		 is a part of a flowering plant thatderives from 
+		 specific tissues of the flower, mainly one or more 
+		 ovaries</p>
 </div>
 </div>
 <div class="sidebar">
 <h1>Recipies Books</h1>
 <ol>
-<li>Desserts By Koshi</li>
-<li>Snacks varieties by Alvira</li>
+<li><a href="http://www.zazzle.ca/elegant_recipes_binder-127143435653017684" style="text-decoration: none;">Desserts By Koshi</li>
+<li><a href="http://www.recipebookonline.com/" style="text-decoration: none;">Snacks varieties by Alvira</li>
 <li>Rice recipies written by Satti sidhu</li>
 <li>Vegetarian Dishes.</li>
 <li>Non Vegetarian Recipies</li>
@@ -95,45 +109,7 @@ the flower, mainly one or more ovaries</p>
 
 
 
-<div class="footer">
-<div class="footerhome">
 
-<ul>
-<li><a href="home.php"style="text-decoration: none;">Home</a></li>
-<li>Make grocery list free</li>
-<li>Available items</li>
-<li>Information about items</li>
-</ul>
-
-</div>
-
-<div class="footerlists">
-
-<ul>
-<li><a href="lists.php"style="text-decoration: none;">Lists</a></li>
-<li>Grocery lists</li>
-<li>Different items list</li>
-<li>Available items list</li>
-<p>copyrightme@sattisidhu2012-2013</p>
-</ul>
-
-</div>
-
-<div class="footerrecipies">
-
-<ul>
-<li><a href="recipies.php"style="text-decoration: none;">Recipes</a></li>
-<li>Free recipes</li>
-<li>Free recipes books</li>
-<li>Recipes List</li>
-</ul>
-
-</div>
-
-
-
-
-</div>
 </div>
 
 

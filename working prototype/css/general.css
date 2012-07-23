@@ -14,7 +14,7 @@ text-align:center;
 .images img{
 	position:relative;
   float:left;
-    height: 180px;
+    height: 220px;
     width: 200px;
 		padding:10px;
 		margin-left:15px;
@@ -29,7 +29,7 @@ text-align:center;
 }
 
 .navigation ul {
-	 height:40px;
+	 height:30px;
 	 width:1000px;
 	 background-color:#666666;
 	 list-style-type: none;
@@ -43,7 +43,7 @@ text-align:center;
 
 	nav ul li{
 	margin:0px;
-	padding-top:3px;;
+	padding-top:-1px;;
 	float:none;
 	list-style-type: none;
 	display:inline-block;
@@ -122,16 +122,19 @@ list-style-type: none;
 
 .logo{
 
-background-color:#fff;
+background-color:#666666;
 
 
 	
 }
+
 .main{
 	float:left;
 	margin-left:80px;
 	color:#fff;
-	margin-top:-415px;
+	margin-top:-515px;
+	width:400px;
+	text-align:left;
 
 
 }
@@ -145,9 +148,14 @@ background-color:#fff;
 	.sidebar{
 	margin-left:700px;
 	color:fff;
-	margin-top:-717px;
+	margin-top:-755px;
+	text-align:left;
 	
 	}
+	.sidebar h1{
+		text-align:left;
+	}
+
 	.sidebar ol li{
 		color:#fff;
 	}
@@ -176,9 +184,22 @@ padding-left:500px;
 		color:#fff;
 	}
 	.maincontentrecipies{
-		padding-left:30px;
+		margin-left:130px;
 		margin-top:200px;
+		text-align:left;
+		width:400px;
 		
+		
+	}
+	
+	
+	.maincontentrecipiestwo{
+		margin-left:570px;
+		margin-top:-500px;
+		color:#fff;
+		text-align:left;
+			width:400px;
+	
 		
 	}
 	.imagesnewone img{
@@ -200,11 +221,11 @@ padding-left:500px;
 	}
 	
 
-	.addrecipie{
-		
+	.addrecipie h1{
+		margin-left:-500px;
 	}
 	.addrecipie form{
-		margin-left:100px;
+		margin-left:-500px;
 		
 	}
 	
@@ -215,16 +236,19 @@ padding-left:500px;
 	.table{
 		
 		margin-left:100px;
-		width:300px;
-		padding:0px;
+		/*width:200px;*/
+		/*padding-left:-20px;*/
+
+		
 	
 	}
-	.table2{
-		width:300px;
-		padding:0px;
-		margin-left:300px;
-		margin-top:-450px;
+	
+	.table table {
+		float: left;
+		width: 200px;
+		margin:30px;
 	}
+	
 	.table tr th{
 		color:#fff;
 		text-align:left;
@@ -239,9 +263,11 @@ padding-left:500px;
 		
 	}
 	.cake img{
-		height:400px;
+		height:550px;
 		width:400px;
-		border:2px solid #000000;
+		border:2px solid #fff;
+		margin-left:500px;
+		margin-top:-255px;
 	}
 	.butt button{
 		 border-radius: 15px;
@@ -252,7 +278,15 @@ padding-left:500px;
 		
 		 
 	}
-	
+	.buttr button{
+	 border-radius: 15px;
+		 height:50px;
+		 width:300px;
+		 color:#000;
+		 margin-left:-920px;
+		 margin-top:590px;		
+		
+	}
 	
 	.butt button:hover{
      background: #383;
@@ -291,7 +325,7 @@ h1{
 .addrecipie p{
 	color:#fff;
 	width:800px;
-	text-align:center;
+	text-align:left;
 	margin-left:90px;
 }
 .contactfooterlists{
@@ -307,4 +341,22 @@ border:2px solid #FFF;
 
 }
 
+.reclabel{
+	padding:15px;
+}
+.recipes{
+	color:#fff;
+	margin-top:-300px;
+	margin-left:-500px;
+		
+}
+.addrecipie h2{
+	color:#fff;
+	text-align:center;
+	margin-left:70px;
+}
+.conlabel{
+	
+	padding:0px;
 
+}
