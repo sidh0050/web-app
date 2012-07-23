@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <title>Web Application</title>
 <link href="css/general.css" rel="stylesheet">
+<style type="text/css">
+a:link {
+	color: #FF0;
+}
+a:visited {
+	color: #6F0;
+}
+</style>
 </head>
 
 <body>
@@ -16,6 +24,7 @@
 </div>
 <div class="img">
 <h1>Sidhuz Grocery List</h1>
+
 <div class="navigation">
 <nav>
 <ul>

@@ -6,6 +6,48 @@ $possible_information=array(
 );
 require_once 'includes/form-processor.php';
 ?>
+<?php
+$errors = array();
+$display_thanks = false;
+
+$name = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING);
+$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+$message = filter_input(INPUT_POST,'message', FILTER_SANITIZE_STRING);
+
+
+
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+if (empty($name)) {
+$errors['username'] = true;
+}
+
+if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+$errors['email'] = true;
+}
+
+if (mb_strlen($message) < 25) { 
+$errors['message'] = true;
+}
+
+if (empty($terms)) {
+$errors['terms'] = true;
+}
+
+if (empty($errors)) {
+$display_thanks = true;
+
+$email_message = 'Name: ' . $name . "\r\n"; // "\r\n" is a new line in an e-mail
+$email_message .= 'Email: ' . $email . "\r\n";
+$email_message .= "Message:\r\n" . $message;
+
+$headers = 'From: ' . $name . ' <' . $email . '>' . "\r\n";
+
+mail('sattisidhu.kaur7@gmail.com', $subject, $email_message, $headers);
+
+}
+}
+?>
 
 
 
@@ -72,12 +114,12 @@ print it a bunch of copies. Enjoy!</p>
 
 
 
-<label for="User name"><strong>User Name</strong><?php if(isset($errors['User name'])): ?><strong class="error"></strong><?php endif;?></label>
-<input id="User name" name="User name" required value="<?php echo $Username; ?>"><br>
+<label for="User name"><strong>User Name</strong><?php if(isset($errors['username'])): ?><strong class="error"></strong><?php endif;?></label>
+<input id="User name" name="User name" required value="<?php echo $username; ?>"><br>
 
 
 <label for="message"><strong>Message</strong><?php if(isset($errors['message'])): ?><strong class="error">Your message must be 5 to 100 characters long.</strong><?php endif;?></label>
-<textarea id="message" name="message" ><?php echo $message;?></textarea><br>
+<input id="message" name="message"required value="<?php echo $message;?>"><br>
 
 
 
@@ -104,6 +146,6 @@ print it a bunch of copies. Enjoy!</p>
 
 
 
-
+</div>
 </body>
 </html>

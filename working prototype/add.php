@@ -1,8 +1,6 @@
 
 <?php
 require_once 'includes/db.php';
-$errors=array();
-$results = null;
 
 
 $recipes_name=filter_input(INPUT_POST,'recipes_name',FILTER_SANITIZE_STRING);

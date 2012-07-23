@@ -29,12 +29,15 @@ text-align:center;
 }
 
 .navigation ul {
+	
+
 	 height:30px;
 	 width:1000px;
 	 background-color:#666666;
 	 list-style-type: none;
 	 border-radius: 15px;
 	padding:10px;
+	
 	
 	 
 	
@@ -48,6 +51,7 @@ text-align:center;
 	list-style-type: none;
 	display:inline-block;
 	font-size:15px;
+
 
 }
 nav a,
@@ -121,11 +125,15 @@ list-style-type: none;
 
 
 .logo{
-
+width:500px;
+height:123px;
 background-color:#666666;
 
 
 	
+}
+.logo img{
+margin-left:420px;
 }
 
 .main{
@@ -135,6 +143,7 @@ background-color:#666666;
 	margin-top:-515px;
 	width:400px;
 	text-align:left;
+	
 
 
 }
@@ -150,14 +159,15 @@ background-color:#666666;
 	color:fff;
 	margin-top:-755px;
 	text-align:left;
-	
+
 	}
 	.sidebar h1{
 		text-align:left;
 	}
 
 	.sidebar ol li{
-		color:#fff;
+	color:#fff;
+		
 	}
 	.maincontent {
 		height:750px;
@@ -272,7 +282,7 @@ padding-left:500px;
 	.butt button{
 		 border-radius: 15px;
 		 height:50px;
-		 width:100px;
+		 width:200px;
 		 color:#000;
 		
 		
@@ -289,9 +299,11 @@ padding-left:500px;
 	}
 	
 	.butt button:hover{
-     background: #383;
+     background: #666666;
 }
-
+.buttr button:hover{
+     background: #666666;
+}
 
 form label input{
 	width: 300px;
@@ -308,15 +320,17 @@ form label{
 .splbtn button{
 border-radius: 15px;
 		 height:60px;
-		 width:100px;
+		 width:180px;
 	margin-left:465px;
 	float:none;
 	display:inline-block;
   margin:0px;
 	padding:0 px auto;
+	margin-top:10px;
 
 }
 h1{
+	
 	color:#fff;
 }
 .reclabel{
