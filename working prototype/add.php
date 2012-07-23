@@ -156,40 +156,6 @@ Recipes Directions
 </div>
 
 
-<div class="footer">
-<div class="footerhome">
-
-<ul>
-<li><a href="home.php"style="text-decoration: none;">Home</a></li>
-<li>Make grocery list free</li>
-<li>Available items</li>
-<li>Information about items</li>
-</ul>
-
-</div>
-
-<div class="footerlists">
-
-<ul>
-<li><a href="lists.php"style="text-decoration: none;">Lists</a></li>
-<li>Grocery lists</li>
-<li>Different items list</li>
-<li>Available items list</li>
-<p>copyrightme@sattisidhu2012-2013</p>
-</ul>
-
-</div>
-
-<div class="footerrecipies"style="text-decoration: none;">
-
-<ul>
-<li><a href="recipies.php">Recipes</a></li>
-<li>Free recipes</li>
-<li>Free recipes books</li>
-<li>Recipes List</li>
-</ul>
-
-</div>
 
 
 

@@ -222,8 +222,8 @@ padding-left:500px;
 	.table2{
 		width:300px;
 		padding:0px;
-		margin-left:600px;
-		margin-top:-700px;
+		margin-left:300px;
+		margin-top:-450px;
 	}
 	.table tr th{
 		color:#fff;
@@ -249,8 +249,11 @@ padding-left:500px;
 		 width:100px;
 		 color:#000;
 		
+		
 		 
 	}
+	
+	
 	.butt button:hover{
      background: #383;
 }

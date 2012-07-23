@@ -11,7 +11,7 @@ $sql =$db->query('SELECT id,Price,Items FROM lists ORDER BY id ASC');
 $results=$sql->fetchAll();
 $total_items = count($results);
 
-$item_chunks = array_chunk($results, $total_items / 2);
+$item_chunks = array_chunk($results, $total_items / 3);
 
 ?><!DOCTYPE HTML>
 <html>
@@ -84,37 +84,7 @@ $item_chunks = array_chunk($results, $total_items / 2);
 </div>
 	</form>
 </div>
-<div class="footer">
-<div class="footerhome">
 
-<ul>
-<li><a href="home.php" style="text-decoration: none;">Home</a></li>
-<li>Make grocery list free</li>
-<li>Available items</li>
-<li>Information about items</li>
-</ul>
-
-</div>
-
-<div class="footerlists">
-
-<ul>
-<li><a href="lists.php" style="text-decoration: none;">Lists</a></li>
-<li>Grocery lists</li>
-<li>Different items list</li>
-<li>Available items list</li>
-<li>copyrightme@sattisidhu2012-2013</li>
-</ul>
-</div>
-<div class="footerrecipies">
-<ul>
-<li><a href="recipies.php" style="text-decoration: none;">Recipes</a></li>
-<li>Free recipes</li>
-<li>Free recipes books</li>
-<li>Recipes List</li>
-</ul>
-</div>
-</div>
  </div>
  </div>
 </body>
