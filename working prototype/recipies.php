@@ -36,17 +36,14 @@
 
 
 <div class="maincontentrecipies">
-
+<h1>ButterChicken</h1>
 <h1>Ingredients</h1>
 <ol>
 <li>Boneless Chicken 1 kg</li>
 <li>Garlic (crushed) 2 tsp</li>
 <li>Salt as per taste</li>
 <li>Onions (sliced) 3 medium</li>
-<li>Tomatoes (boiled and blended) 3 medium</li>
-<li>Yogurt (whipped) 1/2 cup</li>
-<li>Red Chilli Powder 1 tbsp</li>
-<li>Salt</li>
+
 <li>Red peeper-one</li>
 <li>Green pepper-one</li>
 <li>Hing-1 spoon</li>
@@ -64,57 +61,6 @@ ware pot,boil one onion and 1 teaspoon of garlic in the stock.</p>
 </div>
 
 </div>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="footer">
-<div class="footerhome">
-
-<ul>
-<li><a href="home.php"style="text-decoration: none;">Home</a></li>
-<li>Make grocery list free</li>
-<li>Available items</li>
-<li>Information about items</li>
-</ul>
-
-</div>
-
-<div class="footerlists">
-
-<ul>
-<li><a href="lists.php"style="text-decoration: none;">Lists</a></li>
-<li>Grocery lists</li>
-<li>Different items list</li>
-<li>Available items list</li>
-<p>copyrightme@sattisidhu2012-2013</p>
-</ul>
-
-</div>
-
-<div class="footerrecipies">
-
-<ul>
-<li><a href="recipies.php"style="text-decoration: none;">Recipes</a></li>
-<li>Free recipes</li>
-<li>Free recipes books</li>
-<li>Recipes List</li>
-</ul>
-
-</div>
-
-
 
 
 </div>
