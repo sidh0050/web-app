@@ -6,7 +6,7 @@
 <link href="css/general.css" rel="stylesheet">
 <style type="text/css">
 a:link {
-	color: #FF0;
+	color: #fff;
 }
 a:visited {
 	color: #6F0;
@@ -86,31 +86,32 @@ that of a regular meal, that is generally eaten between
 </div>
 </div>
 <div class="sidebar">
-<h1>Recipies Books</h1>
+
 <ol>
+<h1>Recipies Books</h1>
 <li><a href="http://www.zazzle.ca/elegant_recipes_binder-127143435653017684" style="text-decoration: none;">Desserts By Koshi</li>
 <li><a href="http://www.recipebookonline.com/" style="text-decoration: none;">Snacks varieties by Alvira</li>
-<li>Rice recipies written by Satti sidhu</li>
-<li>Vegetarian Dishes.</li>
-<li>Non Vegetarian Recipies</li>
-<li>South Indian Recipies</li>
-<li>All Indian Dishes</li>
-<li>All Chennai Dishes</li>
-<li>All About Juices written By Satinder</li>
-<li>All about Paranthas</li>
-<li>All About Rice Recipes</li>
-<li>All about Non Varities and indian dishes</li>
-<li>All india salty dishes</li>
-<li>Indian kheer</li>
-<li>Indian custard dishes</li>
-<li>All about south dishes</li>
-<li>All about south indian dishes</li>
-<li>Indian dessert</li>
-<li>Indian custard</li>
-<li>Indian custard dishes</li>
-<li>vegetable dishes</li>
-<li>veg samosa</li>
-<li>Non veg samosa</li>
+<li><a href="http://www.amazon.com/Rice-Recipe-Book-Savoury-Dishes/dp/1842152734" style="text-decoration: none;">Rice recipies written by Satti sidhu</li>
+<li><a href="http://www.seriouseats.com/2012/05/vegetarian-cookbooks-with-great-veggie-dishes.html"  style="text-decoration: none;">Vegetarian Dishes.</li>
+<li><a href="http://itunes.apple.com/ca/book/101-non-vegetarian-recipes/id497120885?mt=11" style="text-decoration: none;">Non Vegetarian Recipies</li>
+<li><a href="http://alaivani.com/resources/southindianrecipebooksbyvijivaradarajan/tabid/136/default.aspx" style="text-decoration: none;">South Indian Recipies</li>
+<li><a href="http://www.amazon.com/000-Indian-Recipes/dp/0764519727"  style="text-decoration: none;">All Indian Dishes</li>
+<li><a href="http://www.hindu.com/rp/2010/12/19/stories/2010121950010100.htm" style="text-decoration: none;">All Chennai Dishes</li>
+<li><a href="http://www.amazon.com/The-Joy-Juicing-Recipe-Guide/dp/089529592X" style="text-decoration: none;">All About Juices written By Satinder</li>
+<li><a href="http://recipebook.wikidot.com/alu-paratha" style="text-decoration: none;">All about Paranthas</li>
+<li><a href="http://www.provident-living-today.com/Recipes-for-Rice.html" style="text-decoration: none;">All About Rice Recipes</li>
+<li><a href="http://www.food.com/recipes/brown-rice/"  style="text-decoration: none;">All about Non Varities and indian dishes</li>
+<li><a href="http://www.bookpage.com/the-book-case/2011/08/11/recipe-of-the-week-salty-caramel-ice-cream/" style="text-decoration: none;">All india salty dishes</li>
+<li><a href="http://www.learnrawfood.com/recipes/comments/kheer/#.UBFYIWt9FBk" style="text-decoration: none;">Indian kheer</li>
+<li><a href="http://www.ebay.com/itm/RARE-VINTAGE-CUSTARD-RECIPES-BOOK-ELIZABETH-CRAIG-/220796203258" style="text-decoration: none;">Indian custard dishes</li>
+<li><a href="http://www.yuppiechef.co.za/cook-books.htm"  style="text-decoration: none;">All about south dishes</li>
+<li><a href="http://www.amazon.com/Taste-Madras-South-Indian-Cookbook/dp/1566561965" style="text-decoration: none;">All about south indian dishes</li>
+<li><a href="http://www.squidoo.com/indiandesserts" style="text-decoration: none;">Indian dessert</li>
+<li><a href="http://khanapakana.com/pakistani-urdu-recipes/urdu-recipes.aspx" style="text-decoration: none;">Indian custard</li>
+<li><a href="http://cooks.ndtv.com/recipe/show/caramel-custard-143807"  style="text-decoration: none;">Indian custard dishes</li>
+<li><a href="http://www.chapters.indigo.ca/books/Plenty-Vibrant-Vegetable-Recipes-Londons-Yotam-Ottolenghi-Jonathan-Lovekin/9781452101248-item.html?cookieCheck=1" style="text-decoration: none;">vegetable dishes</li>
+<li><a href="http://www.canadianliving.com/food/cooking_school/cooking_class_vegetable_samosas.php" style="text-decoration: none;">Veg samosa</li>
+<li>Non veg samosa<a href="http://foodbazar-nonveg.blogspot.ca/2007/11/chicken-samosa.html" style="text-decoration: none;"></li>
 
 </ol>
 </div>

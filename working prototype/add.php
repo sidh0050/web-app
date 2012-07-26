@@ -78,7 +78,9 @@ $results=$sql->fetchAll();
 
 
 
-
+<div class="cake">
+<img src="images/cake.jpg" alt="cake Image" >
+</div>
 <div class="addrecipie">
 <h1>Add New Recipe </h1>
 
@@ -134,15 +136,13 @@ Recipes Directions
 
 <div class="butt">
 <button type="add">Add</button>
-<button type="add">Delete</button>
+
 </div>
 </form>
 
 
 
-<div class="cake">
-<img src="images/cake.jpg" alt="cake Image" >
-</div>
+
 
 
 
