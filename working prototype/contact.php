@@ -10,7 +10,7 @@ require_once 'includes/form-processor.php';
 $errors = array();
 $display_thanks = false;
 
-$name = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING);
+$username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING);
 $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
 $message = filter_input(INPUT_POST,'message', FILTER_SANITIZE_STRING);
 

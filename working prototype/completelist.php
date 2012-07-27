@@ -1,7 +1,7 @@
 <?php
 $errors=array();
 
-var_dump($_POST['item']);
+//var_dump($_POST['item']);
 
 
 ?><!DOCTYPE HTML>
