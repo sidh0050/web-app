@@ -37,9 +37,9 @@ $errors['terms'] = true;
 if (empty($errors)) {
 $display_thanks = true;
 
-$email_message = 'Name: ' . $name . "\r\n"; // "\r\n" is a new line in an e-mail
+$username_message = 'Name: ' . $name . "\r\n"; // "\r\n" is a new line in an e-mail
 $email_message .= 'Email: ' . $email . "\r\n";
-$email_message .= "Message:\r\n" . $message;
+$message_message .= "Message:\r\n" . $message;
 
 $headers = 'From: ' . $name . ' <' . $email . '>' . "\r\n";
 
