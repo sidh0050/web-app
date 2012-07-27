@@ -71,7 +71,7 @@ nav a:visited {
 }
 nav a:hover{
 	color: black ;
-  background-color: #fff ;
+  background-color: rgba(255,255,255,0.4);
 border-radius: 15px;
 padding-top:-5px;
 

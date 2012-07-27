@@ -12,7 +12,7 @@ $results=$sql->fetchAll();
 $total_items = count($results);
 
 $item_chunks = array_chunk($results, ceil($total_items / 3));
-var_dump(count($item_chunks));
+//var_dump(count($item_chunks));
 ?><!DOCTYPE HTML>
 <html>
 <head>
