@@ -232,10 +232,10 @@ padding-left:500px;
 	
 
 	.addrecipie h1{
-		margin-left:-500px;
+		margin-left:-50px;
 	}
 	.addrecipie form{
-		margin-left:-500px;
+		margin-left:-50px;
 		
 	}
 	
@@ -287,7 +287,8 @@ padding-left:500px;
 		 height:50px;
 		 width:200px;
 		 color:#000;
-		 
+		 margin:25px;
+
 		
 		
 		 

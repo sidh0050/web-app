@@ -18,7 +18,7 @@ $message = filter_input(INPUT_POST,'message', FILTER_SANITIZE_STRING);
 
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-if (empty($name)) {
+if (empty($username)) {
 $errors['username'] = true;
 }
 
