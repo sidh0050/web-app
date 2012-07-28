@@ -1,7 +1,7 @@
 <?php
 /**
 *lists delete a specific recipe from database by using id
-*$sql->bindValue is used to bind a value for recipe id
+*s$sql->bindValue is used to bind a value for recipe id
 *@author satindersidhu <sidh0050@algonquincollege.com>
 *Copyright 2012-2013 sattisidhu
 *@licence APACHE https://github.com/sidh0050/web-app

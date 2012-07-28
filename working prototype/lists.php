@@ -1,14 +1,4 @@
 <?php
-/**
-*$sql =$db->query is used to fetch data from database 
-*$item_chunks  is used to divide a single table into multiple tables as you want
-* fetch data from database eg items and price from database
-*@author satindersidhu <sidh0050@algonquincollege.com>
-*Copyright 2012-2013 sattisidhu
-*@licence APACHE https://github.com/sidh0050/web-app
-*@package web-app
-*@version 1.0.0
-*/
 require_once 'includes/db.php';
 
 $sql =$db->query('SELECT id,Price,Items FROM lists ORDER BY id ASC');

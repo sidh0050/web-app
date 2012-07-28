@@ -12,7 +12,7 @@
 
 <!DOCTYPE HTML>
 <html>
-<head>
+<head>s
 <meta charset="utf-8">
 <title>Web Application</title>
 <link href="css/general.css" rel="stylesheet">

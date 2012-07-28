@@ -1,14 +1,5 @@
 <?php 
-/**
-*if ($_SERVER['REQUEST_METHOD'] == 'POST') is used to display an error meassage for if the regarding textbox is empty
-8Three labels are used for username ,email and message to intearct with end users
-*submit and cancel two buttons are used to submit the end user information in my email and cancel button is used to cancel submission of information by end user
-*@author satindersidhu <sidh0050@algonquincollege.com>
-*Copyright 2012-2013 sattisidhu
-*@licence APACHE https://github.com/sidh0050/web-app
-*@package web-app
-*@version 1.0.0
-*/
+
 
 
 
