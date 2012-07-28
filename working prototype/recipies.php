@@ -2,6 +2,12 @@
 /**
 *Add two images for my recipes page as well as two written recipes for the user
 *Add button is used if any user wants to add his/her recipe on the web-app
+*@author satindersidhu <sidh0050@algonquincollege.com>
+*Copyright 2012-2013 sattisidhu
+*@licence APACHE https://github.com/sidh0050/web-app
+*@package web-app
+*@version 1.0.0
+
 */
 ?>
 <!DOCTYPE HTML>

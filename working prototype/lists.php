@@ -1,4 +1,14 @@
 <?php
+/**
+$item_chunks method is used to divide the table into various parts according to requirement
+$sql =$db->query method is used to fetch data regarding to lists page from web-app
+*@author satindersidhu <sidh0050@algonquincollege.com>
+*Copyright 2012-2013 sattisidhu
+*@licence APACHE https://github.com/sidh0050/web-app
+*@package web-app
+*@version 1.0.0
+
+*/
 require_once 'includes/db.php';
 
 $sql =$db->query('SELECT id,Price,Items FROM lists ORDER BY id ASC');

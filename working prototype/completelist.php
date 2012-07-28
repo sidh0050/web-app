@@ -1,4 +1,14 @@
 <?php
+/**
+*foreach ($_POST['item'] as $item) : method is used to display only selected items list on the page
+*Print button is used to take prinout of selected items
+*@author satindersidhu <sidh0050@algonquincollege.com>
+*Copyright 2012-2013 sattisidhu
+*@licence APACHE https://github.com/sidh0050/web-app
+*@package web-app
+*@version 1.0.0
+
+*/
 
 $errors=array();
 

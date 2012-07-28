@@ -1,5 +1,16 @@
 <?php 
-
+/**
+*if ($_SERVER['REQUEST_METHOD'] == 'POST') method is used to display an error message if textbox is empty
+*three labels are used to build interaction between end user and web-app owner to received messages from users of web app
+*Submit button is used to submit the end users information to web app owner
+*cancel button is used to cancel the submission of message to web-app owner
+*$sql->bindValue is used to bind a value for recipe id
+*@author satindersidhu <sidh0050@algonquincollege.com>
+*Copyright 2012-2013 sattisidhu
+*@licence APACHE https://github.com/sidh0050/web-app
+*@package web-app
+*@version 1.0.0
+*/
 
 
 
