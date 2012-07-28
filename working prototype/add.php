@@ -1,5 +1,17 @@
 
 <?php
+
+
+/**
+*if($_SERVER['REQUEST_METHOD']=='POST') is used to display an error message if the textbox is empty
+*PARAM_STR method is used to bind values for recipes_name,recipes_ingredients,recipes_directions
+*$sql =$db->query is used to fetch the data from database 
+*Add button is used to add a new recipe in the database
+*Copyright 2012-2013 sattisidhu
+*@licence APACHE https://github.com/sidh0050/web-app
+*@package web-app
+*@version 1.0.0
+*/
 require_once 'includes/db.php';
 
 

@@ -1,3 +1,15 @@
+<?php
+/**
+*Lists some images as well as some written content regarding my web-app
+*Links given to the recipes books to represent reference for the specific book to the users 
+*@author satindersidhu <sidh0050@algonquincollege.com>
+*Copyright 2012-2013 sattisidhu
+*@licence APACHE https://github.com/sidh0050/web-app
+*@package web-app
+*@version 1.0.0
+*/
+?>
+
 <!DOCTYPE HTML>
 <html>
 <head>

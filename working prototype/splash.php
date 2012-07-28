@@ -1,3 +1,17 @@
+<?
+/**
+*Lists all the major buttons as well as images on the page regarding my grocery list web-app
+*@author satindersidhu <sidh0050@algonquincollege.com>
+*Copyright 2012-2013 sattisidhu
+*@licence APACHE https://github.com/sidh0050/web-app
+*@package web-app
+*@version 1.0.0
+*/
+?>
+
+
+
+
 <!DOCTYPE HTML>
 <html>
 <head>
