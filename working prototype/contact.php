@@ -130,12 +130,12 @@ print it a bunch of copies. Enjoy!</p>
 
 
 
-<label for="User name"><strong>User Name</strong><?php if(isset($errors['username'])): ?><strong class="error"></strong><?php endif;?></label>
-<input id="User name" name="User name" required value="<?php echo $username; ?>"><br>
+<label for="username"><strong>User Name</strong><?php if(isset($errors['username'])): ?><strong class="error"></strong><?php endif;?></label>
+<input id="username" id="username" name="username" required value="<?php echo $username; ?>"><br>
 
 
 <label for="message"><strong>Message</strong><?php if(isset($errors['message'])): ?><strong class="error">Your message must be 5 to 100 characters long.</strong><?php endif;?></label>
-<input id="message" name="message"required value="<?php echo $message;?>"><br>
+<input id="message" id="message" name="message"required value="<?php echo $message;?>"><br>
 
 
 

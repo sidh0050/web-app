@@ -1,4 +1,4 @@
-<?
+<?php
 /**
 *Lists all the major buttons as well as images on the page regarding my grocery list web-app
 *@author satindersidhu <sidh0050@algonquincollege.com>

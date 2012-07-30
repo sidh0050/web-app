@@ -50,7 +50,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 	
 	
 $sql =$db->query('SELECT recipes_id,recipes_name,recipes_ingredients,recipes_directions FROM recipies ORDER BY recipes_id ASC');
-var_dump($db->errorInfo());
+//var_dump($db->errorInfo());
 $results=$sql->fetchAll();
 		
 
