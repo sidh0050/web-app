@@ -54,7 +54,7 @@ Copyright-
 Copyrightme@sattisidhu2012-2013.
 
 ##Link to phpfog-
-http://webapplication.phpfogapp.com/
+http://webapplication.phpfogapp.com/working%20prototype/
 
 ##Installation Instructions-
 Step-1.Click on Install Butoon.
