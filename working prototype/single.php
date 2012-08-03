@@ -1,6 +1,6 @@
 <?php
 /**
-ss*Delete a recipe from recipies page by using a link
+*Delete a recipe from recipies page by using a link
 *@PARAM_INT is used to bind the value for recipe id in database
 * $results is used to take the output from the database for recipe ingredients as well as recipe id
 *delete.php?id is used to represent the specific recipe id from database to which the user wants to delete

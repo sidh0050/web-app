@@ -1,4 +1,16 @@
 <?php 
+
+
+/**
+
+*if($_SERVER['REQUEST_METHOD']== 'POST') method is used to display error messages for contact page of web-app.
+*$headers ='From:=' .$name. '<' .$email. '>'; method is used to received mail from end users in my account regarding my web-app.
+*Add button is used to add a new recipe in the database
+*Copyright 2012-2013 sattisidhu
+*@licence APACHE https://github.com/sidh0050/web-app
+*@package web-app
+*@version 1.0.0
+*/
 $errors=array();
 
 $name = filter_input(INPUT_POST, 'name',FILTER_SANITIZE_STRING);

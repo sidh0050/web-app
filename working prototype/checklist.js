@@ -1,3 +1,12 @@
+/**
+
+*@author satindersidhu <sidh0050@algonquincollege.com>
+*Copyright 2012-2013 sattisidhu
+*@licence APACHE https://github.com/sidh0050/web-app
+*@package web-app
+*@version 1.0.0
+*/
+
 $(document).ready(function(){
 	var ItemsAvailable = $('.Itemsavailable');
 	var PriceReqs = 0;

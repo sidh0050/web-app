@@ -53,3 +53,11 @@ limitations under the License.
 Copyright-
 Copyrightme@sattisidhu2012-2013.
 
+##Link to phpfog-
+http://webapplication.phpfogapp.com/
+
+##Installation Instructions-
+Step-1.Click on Install Butoon.
+Step-2.In the new window click on acccept aggrement regarding to authority to access web-app.
+Step-3.Then click on Ok Button to finish installation. 
+
